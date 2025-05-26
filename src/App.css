@@ -1,0 +1,6 @@
+ @import "tailwindcss";
+ @layer utilities {
+  .outline-text {
+    -webkit-text-stroke: 2px rgb(0, 0, 0); /* Creates the white outline */
+  }
+}

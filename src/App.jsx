@@ -24,7 +24,7 @@ import Ui from './components/Ui'
          
          <color attach={"background"} args={["#F8F8F8"]}/>
         
-         <ScrollControls pages={6} damping={0.5} horizontal={false}>
+         <ScrollControls pages={6} horizontal={false}>
           <Scene rotat={rotat}
           setfratures={setfratures}
           />

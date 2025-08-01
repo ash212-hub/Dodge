@@ -20,7 +20,6 @@ export default function Scene({ rotat, seat, setfratures }) {
         seat={seat}
         setfratures={setfratures}
       />
-      <OrbitControls />
      
     </>
   )

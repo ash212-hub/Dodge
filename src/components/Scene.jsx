@@ -1,6 +1,6 @@
  import React, { useRef } from 'react'
 import { Car } from './Car'
-import { Center, Stage } from '@react-three/drei'
+import { Center, OrbitControls, Stage, Text } from '@react-three/drei'
 import Lights from './Lights'
 import Secondcam from './Secondcam'
 
@@ -20,6 +20,10 @@ export default function Scene({ rotat, seat, setfratures }) {
         seat={seat}
         setfratures={setfratures}
       />
+      <OrbitControls />
+      <mesh>
+        <Text children=" hi there" color="red" />
+      </mesh>
     </>
   )
 }

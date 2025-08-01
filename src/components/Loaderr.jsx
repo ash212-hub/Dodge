@@ -14,7 +14,7 @@ function Loaderr() {
 
   return (
     <group>
-      <Center top position={[0, 4, 0]}>
+      <Center  >
         <Html center>
           <div style={{ width: '9rem', height: '5rem', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <svg

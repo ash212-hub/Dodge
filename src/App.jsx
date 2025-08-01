@@ -2,13 +2,13 @@
  import { Canvas } from '@react-three/fiber' 
  import { Suspense } from 'react'
  import Scene from './components/Scene'
- import { Environment, Preload, Scroll, ScrollControls } from '@react-three/drei'
+ import { Environment, Preload, RoundedBox, Scroll, ScrollControls } from '@react-three/drei'
  import Loaderr from './components/Loaderr'
  import './App.css'
 import Headerrr from './components/Headerrr'
 import Titleupdate from './components/Titleupdate'
 import Features from './components/Features'
-import Ui from './components/Ui'
+import Ui from './components/Ui' 
  export default function App() {
    const [features,setfratures]=useState(true);
     const [rotat,setRotate]=useState(false);
@@ -45,7 +45,27 @@ import Ui from './components/Ui'
      rotat={rotat}
      setRotate={setRotate} />: null}
      <Titleupdate />
+      
      </div>
    )
  }
+
+
+
+// import { Canvas } from '@react-three/fiber'
+// import React from 'react' 
+
+// function App() {
+//   return (
+//     <div className="bg-yellow-300 w-screen h-screen">
+//       <Canvas className="w-full h-full" >
+//         <mesh>
+           
+//         </mesh>
+//       </Canvas>
+//     </div>
+//   )
+// }
+
+// export default App
  

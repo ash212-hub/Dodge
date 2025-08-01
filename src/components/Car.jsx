@@ -1,8 +1,7 @@
  
 import React, { useRef } from 'react'
 import { useGLTF} from '@react-three/drei' 
-import { PI } from 'three/tsl'
-import { useFrame } from '@react-three/fiber'
+import { PI } from 'three/tsl' 
 
 export function Car({carref,...props}) {
   const { nodes, materials } = useGLTF('/model/car.glb')

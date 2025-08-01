@@ -21,9 +21,7 @@ export default function Scene({ rotat, seat, setfratures }) {
         setfratures={setfratures}
       />
       <OrbitControls />
-      <mesh>
-        <Text children=" hi there" color="red" />
-      </mesh>
+     
     </>
   )
 }
